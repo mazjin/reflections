@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialise a repository, it defines the folder as the parent directory
+of the repository and creates a metadata ".Git" folder to contain all of the
+information about the commits in the repository. If the repository is not
+initialised, it's not a repository (at least in the specific sense).
