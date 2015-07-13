@@ -12,3 +12,39 @@ Staging area is temporary and only holds files/changes that have not yet been
 committed. This is useful because otherwise each change would have to be
 instantly committed with no fine control over which files/changes to commit.
 --------------------------------------------------------------------------------
+
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+If you are making multiple changes in multiple files, you can choose to only 
+commit the files for one logical change at a time, thus keeping to the "one commit per logical change" rule of thumb without having to interrupt workflow.
+
+-------------------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+
+Wanting to implement a new feature while still keeping the original program functional would be a good reason to use branches, with the added benefit that the history of the implementation of that program has its own series of commits, allowing for more detail once that feature is added to/merged with the main branch than simply "add 
+feature X".
+
+-------------------------------------------------------------------------------
+
+How do the diagrams help you visualise the branch structure?
+
+They show where (as in, which commit was checked out when) the branch was split
+off , as well as each commit along that branch. They provide a comparable, 
+visual history of the repository.
+
+-------------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging branches together essentually applies the changes that both branches 
+represent to their common ancestor and forms a continuation of either branch 
+based on this new commit. Tree diagrams show the branches the best as they are 
+a branching hierarchical structure; each commit in a branch has a parent except 
+the original, which is the common ancestor to all of the commits. 
+
+-------------------------------------------------------------------------------
+
+
