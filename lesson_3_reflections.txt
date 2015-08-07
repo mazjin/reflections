@@ -13,3 +13,21 @@ Manually pulling changes ensures that you only get the code you want/need from
 the branches you care about. Additionally, for a large project with tens or
 hundreds of contributors, automatically updating would probably overwrite your
 changes before you could commit them, as others push updates.
+
+--------------------------------------------------------------------------------
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+You would branch when starting a new series of additions to the main repo, e.g.
+adding a new game version, while preserving the master branch.
+
+You would clone when copying repositories to a new computer/directory, or simply
+to pull code with no intention of editing or altering it, e.g. beta versions of
+software.
+
+You would fork when copying a repo to make changes or additions to the repo,
+spinning off of the original to create a new version, e.g. creating a version of
+an existing browser that works on a different operating system.
+
+--------------------------------------------------------------------------------
